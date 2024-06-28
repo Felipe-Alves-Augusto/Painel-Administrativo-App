@@ -1,7 +1,7 @@
-🚀 #Painel Administrativo - Laravel API, PostgreSQL e React
+# 🚀 Painel Administrativo - Laravel API, PostgreSQL e React
 Bem-vindo ao Painel Administrativo desenvolvido com Laravel, PostgreSQL e React! Este projeto foi criado para oferecer uma solução completa e eficiente para a gestão de empresas, máquinas, produtos e muito mais. Veja abaixo as funcionalidades incríveis que você encontrará neste painel:
 
-✨ # Funcionalidades Principais
+# ✨ Funcionalidades Principais
 🔐 **Autenticação Segura**
 
 - Login e Cadastro de Usuários: Garantia de segurança e facilidade para acesso ao sistema.
@@ -33,7 +33,7 @@ Bem-vindo ao Painel Administrativo desenvolvido com Laravel, PostgreSQL e React!
 📊 **Relatórios em CSV**
 
 - Sistema de Relatórios: Baixe relatórios detalhados em formato CSV para análise e gestão avançada.
-🛠️ # Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 Backend: Laravel API para uma integração robusta e segura com o banco de dados.
 Banco de Dados: PostgreSQL, garantindo alta performance e confiabilidade.
 Frontend: React, proporcionando uma interface de usuário rápida e interativa.
