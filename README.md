@@ -34,7 +34,7 @@ Bem-vindo ao Painel Administrativo desenvolvido com Laravel, PostgreSQL e React!
 
 - Sistema de Relatórios: Baixe relatórios detalhados em formato CSV para análise e gestão avançada.
 # 🛠️ Tecnologias Utilizadas
-Backend: Laravel API para uma integração robusta e segura com o banco de dados.
-Banco de Dados: PostgreSQL, garantindo alta performance e confiabilidade.
-Frontend: React, proporcionando uma interface de usuário rápida e interativa.
+- Backend: Laravel API para uma integração robusta e segura com o banco de dados.
+- Banco de Dados: PostgreSQL, garantindo alta performance e confiabilidade.
+- Frontend: React, proporcionando uma interface de usuário rápida e interativa.
  
