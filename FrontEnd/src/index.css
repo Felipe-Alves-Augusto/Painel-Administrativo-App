@@ -1,0 +1,388 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+
+
+html, body {
+  height: 100%;
+}
+
+input, label{
+  color: #111827 !important;
+  outline: 0;
+}
+
+input::placeholder{
+  color: #666 !important;
+}
+
+/* .form-select {
+  width: 100% !important;
+} */
+
+
+textarea {
+  outline: 0;
+}
+
+.wrapper-page {
+  float: left;
+  width: 80%;
+  height: 100vh;
+  padding: 10px 25px;
+  background-color: #e8e8e8;
+  /* position: absolute; */
+  position: relative;
+  margin-left: 20%;
+}
+
+.wrapper-page .wrapper-loading {
+  float: left;
+}
+
+.wrapper-cards {
+  float: left;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title-machines {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.section-data {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+
+.wrapper-machines {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+
+}
+
+.wrapper-button-form {
+  width: 100%;
+}
+
+.chart {
+  box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.chart h2 {
+  margin-bottom: 20px;
+}
+
+
+/* cOMPANY */
+
+.wrapper-buttons {
+  float: left;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wrapper-buttons a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.table-info {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.form-create {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  float: left;
+  width: 100%;
+}
+
+
+.form-create form {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.form-create .form-group {
+  width: 49%;
+}
+
+.register, .login {
+  margin-top: 0px !important;
+}
+
+.login .wrapper-loading {
+  width: 90%;
+  height: 90%;
+}
+
+.register .wrapper-loading {
+  background-color: #fff;
+  width: 90%;
+  height: 95%;
+}
+
+.wrapper-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e8e8e8;
+  margin-top: 30px;
+}
+
+
+.wrapper-form form {
+  box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.wrapper-form form .title {
+  margin-bottom: 30px;
+}
+
+.wrapper-form form .title p {
+  font-size: 15px;
+  text-align: center;
+  color: #111827;
+}
+
+.alredy-account {
+  margin-top: 30px;
+}
+
+.alredy-account p {
+  color: #111827;
+  font-size: 15px;
+}
+
+.alredy-account p a {
+  color: rgb(52, 133, 255);
+  text-decoration: underline;
+}
+
+.title-table {
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  color: #111827;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+
+}
+
+.wrapper-page .message-success {
+  position: static;
+}
+
+.actions-table button {
+  width: 29px;
+  height: 29px;
+}
+
+.forbidden {
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+}
+
+.forbidden .wrapper-forbidden {
+  background-color: #fff;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+}
+
+.forbidden .wrapper-forbidden h1 {
+  border: none;
+}
+
+.forbidden .wrapper-forbidden h2 {
+  color: #333;
+}
+
+.forbidden .wrapper-forbidden p a {
+  text-decoration: underline;
+  color: rgb(10, 137, 241);
+}
+
+
+.register form {
+  max-width: 38%;
+}
+
+.register form .form-group {
+  display: inline-block;
+  width: 47%;
+  margin: 10px 5px;
+}
+
+.modal-view-products, .modal-called {
+  background-color: rgba(0,0,0,.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-modal {
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 750px;
+  height: 500px;
+  box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+  
+}
+
+.wrapper-modal .title-modal p {
+  
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.modal-flex {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.modal-called .modal-flex {
+  flex-direction: column;
+  padding: 0;
+}
+
+.modal-called .line-details-called {
+  width: 100%;
+  border-bottom: 1px solid #aaa;
+  padding: 15px 10px;
+}
+
+.modal-called .line-details-called b {
+  text-transform: uppercase;
+}
+
+.modal-called .wrapper-modal {
+
+  overflow-y: scroll !important;
+}
+
+.link-chamado {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.link-chamado svg {
+  fill: rgb(4, 108, 245);
+}
+
+.link-chamado a {
+  font-weight: bold;
+  color: rgb(4, 108, 245);
+  font-size: 13px;
+}
+
+.link-chamado a:hover {
+  text-decoration: underline;
+}
+
+.wrapper-modal .title-modal {
+  border-bottom: 1px solid #b6b5b5;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.products {
+  width: 50%;
+  box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+  border: 1px solid #ccc;
+  background-color: #fff
+}
+
+.card-footer {
+  margin-top: 20px;
+  padding: 10px 1rem;
+}
+
+.line-card {
+  border-bottom: 1px solid #b6b5b5;
+}
+
+.line-card svg  {
+  margin-right: 7px;
+  width: 20px;
+}
+
+.line-card b{
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 765px) {
+    .wrapper-page{
+      width: 100%;
+      margin-left: 0;
+    }
+}

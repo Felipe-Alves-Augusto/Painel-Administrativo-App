@@ -1,0 +1,36 @@
+.header-top {
+    background-color: #a7d4d2;
+    padding: 14px 0px;
+   
+}
+
+.header-top .wrapper-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top .wrapper-header-top .contact-header,
+.header-top .wrapper-header-top .social-media-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-top .wrapper-header-top .contact-header svg,
+.header-top .wrapper-header-top .social-media-header svg {
+    fill: #008080;
+    width: 17px;
+    height: 17px;
+}
+
+.header-top .wrapper-header-top .contact-header a {
+    padding: 10px;
+}
+
+.header-top .wrapper-header-top .social-media-header a {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+

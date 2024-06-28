@@ -1,0 +1,27 @@
+
+.card-machine {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+    
+}
+
+.card-machine .text .machine {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.card-machine .text .estoque {
+    margin-top: 10px;
+}
+
+.card-machine .machine-icon svg {
+    width: 60px;
+    height: 60px;
+}

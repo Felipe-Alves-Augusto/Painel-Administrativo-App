@@ -1,0 +1,77 @@
+header {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+header .welcome h2 {
+    font-size: 15px;
+    color: #333;
+}
+
+
+header .actions-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .actions-header .user {
+    display: flex;
+    align-items: center;
+    gap: 10px
+    
+    ;
+}
+
+header .actions-header .user .photo-user {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+header .actions-header {
+    position: relative;
+}
+
+header #dropdownAvatarName {
+    position: absolute;
+    top: 50px;
+    right: 0
+}
+
+.icon-user {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+
+
+.wrapper-logout button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.wrapper-logout button p {
+    padding: 0;
+}
+.close-drop{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.close-drop svg {
+    width: 25px;
+    height: 25px;
+
+}
+

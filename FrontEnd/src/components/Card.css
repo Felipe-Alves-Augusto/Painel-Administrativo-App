@@ -1,0 +1,32 @@
+.card {
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+}
+
+.card .title p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card .info-main h2 {
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+.card .porcents {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card .porcents .porcent-one {
+    color: #32854b;
+    font-weight: 500;
+}
+
+.card .porcents .porcent-two {
+    font-weight: 500;
+}
